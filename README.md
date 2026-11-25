@@ -1,6 +1,6 @@
 # Research Data and Code
 
-This repository contains the data, code, and selected outputs used in our research paper.
+Data, code and selected outputs for the study "Measuring the Wait for Gender Parity in South African Universities", using survival analysis to examine female academic staff representation from 2000 to 2023.
 
 ## Repository Contents
 
