@@ -69,4 +69,4 @@ The associated manuscript is currently in preparation. Full citation information
 
 ## Acknowledgements
 
-We acknowledge PowerHEDA as the original data source.
+We acknowledge [PowerHEDA](https://www.heda.co.za/PowerHEDA/dashboard.aspx) as the original data source.
