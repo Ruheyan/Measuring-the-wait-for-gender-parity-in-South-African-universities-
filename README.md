@@ -10,7 +10,7 @@ Data, code and selected outputs for the study "Measuring the Wait for Gender Par
 
 ## Authors 
 
-Winnie Nakiyingi - AIMS Research and Innovation Centre, Rwanda
+Winnie Nakiyingi — AIMS Research and Innovation Centre, Rwanda
 
 Justine Nasejje — University of the Witwatersrand, South Africa
 
