@@ -6,27 +6,31 @@ This repository contains the data, code, and selected outputs associated with th
 
 The study investigates changes in female academic staff representation across 26 South African universities between 2000 and 2023. Using survival analysis, we examine the time taken by universities to first reach or exceed selected representation thresholds and explore differences in the pace of institutional progress.
 
-Data, code and selected outputs for the study "Measuring the Wait for Gender Parity in South African Universities", using survival analysis to examine female academic staff representation from 2000 to 2023.
+## Authors
 
-## Authors 
+Winnie Nakiyingi, AIMS Research and Innovation Centre, Rwanda
 
-Winnie Nakiyingi — AIMS Research and Innovation Centre, Rwanda
+Justine Nasejje, University of the Witwatersrand, South Africa
 
-Justine Nasejje — University of the Witwatersrand, South Africa
+Anna Kaduma Gumbie, University of the Witwatersrand, South Africa
 
-Anna Kaduma Gumbie — University of the Witwatersrand, South Africa
+Rukia Nuermaimaiti, Imperial College London, United Kingdom
 
-Rukia Nuermaimaiti — Imperial College London, United Kingdom
-
-Pierre-Philippe Dechant — University of Leeds, United Kingdom
+Pierre-Philippe Dechant, University of Leeds, United Kingdom
 
 ## Data Source
 
-The original data were obtained from the [PowerHEDA dashboard](https://www.heda.co.za/PowerHEDA/dashboard.aspx) on 11 August 2025.
+The data were obtained from the [PowerHEDA dashboard](https://www.heda.co.za/PowerHEDA/dashboard.aspx). The initial data extraction was conducted on 11 August 2025, and the dataset was subsequently updated using reports downloaded on 26 November 2026.
 
 The data were extracted from the Permanent Instr/Research Staff Headcount by Institution and Calendar Year report under the Staff Reports section.
 
-The dataset contains annual headcounts of female and male permanent instructional and research staff across 26 South African universities from 2000 to 2023. As observation periods vary across institutions, the resulting dataset has an unbalanced panel structure.
+The updated dataset contains 581 university-year observations, comprising annual headcounts of female and male permanent instructional and research staff across 26 South African universities from 2000 to 2023. As observation periods vary across institutions, the resulting dataset has an unbalanced panel structure.
+
+Female, male and total staff headcounts were extracted separately to facilitate data validation. Female academic staff representation was calculated as the female headcount divided by the sum of female and male headcounts.
+
+Vista University was excluded to restrict the analysis to the 26 universities operating in 2023. Observations with zero total staff headcounts were also excluded.
+
+The updated dataset resolves previously missing male headcounts for 2006–2011. Three minor discrepancies between the reported total headcounts and the sum of female and male headcounts were identified and retained for transparency. No missing values were imputed.
 
 ## Repository Contents
 
@@ -39,11 +43,8 @@ The dataset contains annual headcounts of female and male permanent instructiona
 The study employs a survival analysis framework to examine:
 
 - Longitudinal changes in female academic staff representation.
-
 - Time to first attainment of selected representation thresholds.
-
 - Kaplan–Meier estimation of time-to-threshold distributions.
-
 - Comparisons between historically disadvantaged institutions (HDIs) and non-HDIs.
 
 Representation thresholds serve as reference points for monitoring institutional progress rather than definitive measures of gender equity.
@@ -53,11 +54,8 @@ Representation thresholds serve as reference points for monitoring institutional
 The research is aligned with the following United Nations Sustainable Development Goals (SDGs):
 
 - SDG 4: Quality Education
-
 - SDG 5: Gender Equality
-
 - SDG 10: Reduced Inequalities
-
 
 ## Reproducibility
 
