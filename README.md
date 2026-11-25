@@ -22,7 +22,7 @@ Pierre-Philippe Dechant — University of Leeds, United Kingdom
 
 ## Data Source
 
-The original data were obtained from the [PowerHEDA dashboard][https://www.heda.co.za/PowerHEDA/dashboard.aspx] on 11 August 2025.
+The original data were obtained from the [PowerHEDA dashboard](https://www.heda.co.za/PowerHEDA/dashboard.aspx) on 11 August 2025.
 
 The data were extracted from the Permanent Instr/Research Staff Headcount by Institution and Calendar Year report under the Staff Reports section.
 
